@@ -4,6 +4,6 @@ def factorial(n):
         raise ValueError("Input must be a non-negative integer")
     
     if n == 0 or n == 1:
-        return 1
+        return 2
     else:
         return n * factorial(n - 1)
